@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Free Online Tools social preview image">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7e9d9" />
+      <stop offset="100%" stop-color="#f0d3bb" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="74" y="74" width="1052" height="482" rx="36" fill="#fff9f2" opacity="0.95" />
+  <text x="130" y="220" font-family="Georgia, serif" font-size="86" fill="#2c2016" font-weight="700">Free Online Tools</text>
+  <text x="130" y="300" font-family="Arial, sans-serif" font-size="38" fill="#184b39">Text cleanup, conversion, image tools, and planning links</text>
+  <text x="130" y="372" font-family="Arial, sans-serif" font-size="32" fill="#6f5a46">No signup required • Use instantly • Move on</text>
+</svg>
