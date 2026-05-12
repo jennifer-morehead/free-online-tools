@@ -375,6 +375,10 @@ main {
 }
 
 .footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
   margin-top: 24px;
   padding: 26px 30px;
   border: 1px solid rgba(66, 38, 13, 0.08);
@@ -388,6 +392,10 @@ main {
   box-shadow: var(--shadow);
 }
 
+.footer-copy {
+  max-width: 62ch;
+}
+
 .footer strong {
   display: block;
   margin-bottom: 6px;
@@ -398,6 +406,28 @@ main {
   margin: 0;
   color: rgba(247, 239, 232, 0.82);
   line-height: 1.75;
+}
+
+.tip-jar-link {
+  flex-shrink: 0;
+  align-self: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(247, 239, 232, 0.45);
+  color: #f7efe8;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  background: rgba(247, 239, 232, 0.12);
+  transition:
+    background-color 180ms ease,
+    transform 180ms ease;
+}
+
+.tip-jar-link:hover,
+.tip-jar-link:focus-visible {
+  background: rgba(247, 239, 232, 0.2);
+  transform: translateY(-1px);
 }
 
 @media (max-width: 1040px) {
@@ -429,6 +459,16 @@ main {
   .footer {
     padding: 20px;
     border-radius: 24px;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .tip-jar-link {
+    align-self: flex-start;
   }
 
   .hero-copy h1 {
